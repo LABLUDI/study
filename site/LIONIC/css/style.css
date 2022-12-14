@@ -21,9 +21,35 @@ html {
 }
 
 .container {
-	max-width: 1170px;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .header {
-	
+	height: 110px;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.logo {
+	margin-right: auto;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.header-btn {
+	margin-left: 80px;
 }
